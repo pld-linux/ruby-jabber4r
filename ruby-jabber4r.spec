@@ -2,6 +2,7 @@
 %define ruby_rubylibdir %(ruby -r rbconfig -e 'print Config::CONFIG["rubylibdir"]')
 %define	ruby_ridir	%(ruby -r rbconfig -e 'include Config; print File.join(CONFIG["datadir"], "ri", CONFIG["ruby_version"], "system")')
 Summary:	Jabber library for Ruby
+Summary(pl):	Biblioteka Jabber dla jêzyka Ruby
 Name:		ruby-jabber4r
 Version:	0.6.0
 Release:	1
@@ -17,7 +18,10 @@ Requires:	ruby
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Jabber library for Ruby
+Jabber library for Ruby.
+
+%description%description -l pl
+Biblioteka Jabber dla jêzyka Ruby.
 
 %prep
 %setup -q -n jabber4r
