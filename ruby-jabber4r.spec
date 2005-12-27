@@ -2,7 +2,7 @@ Summary:	Jabber library for Ruby
 Summary(pl):	Biblioteka Jabber dla jêzyka Ruby
 Name:		ruby-jabber4r
 Version:	0.6.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages
 Source0:	http://rubyforge.org/frs/download.php/376/jabber4r-%{version}.tar.gz
@@ -10,9 +10,9 @@ Source0:	http://rubyforge.org/frs/download.php/376/jabber4r-%{version}.tar.gz
 Source1:	setup.rb
 URL:		http://jabber4r.rubyforge.org/
 BuildRequires:	rpmbuild(macros) >= 1.263
-BuildRequires:	ruby
+BuildRequires:	ruby-modules
 BuildRequires:	ruby-devel
-Requires:	ruby
+Requires:	ruby-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
