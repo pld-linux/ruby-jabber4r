@@ -9,9 +9,9 @@ Source0:	http://rubyforge.org/frs/download.php/376/jabber4r-%{version}.tar.gz
 # Source0-md5:	e5e0bc060bd01389714c3598cf379e4d
 Source1:	setup.rb
 URL:		http://jabber4r.rubyforge.org/
-BuildRequires:	rpmbuild(macros) >= 1.263
+BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
-Requires:	ruby-modules
+%ruby_mod_ver_requires_eq
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
