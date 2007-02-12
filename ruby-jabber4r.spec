@@ -1,5 +1,5 @@
 Summary:	Jabber library for Ruby
-Summary(pl.UTF-8):   Biblioteka Jabber dla języka Ruby
+Summary(pl.UTF-8):	Biblioteka Jabber dla języka Ruby
 Name:		ruby-jabber4r
 Version:	0.6.0
 Release:	2
